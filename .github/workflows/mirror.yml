@@ -1,0 +1,57 @@
+name: mirror-plugins
+
+on:
+  schedule:
+    - cron: "37 */12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-plugins
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FP_REPO: LyraVoid/FolkPatch
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download latest FolkPatch APK
+        run: |
+          set -euo pipefail
+          gh release download --repo "$FP_REPO" --pattern '*.apk' --dir _apk --clobber
+          APK="$(ls _apk/*.apk | head -n1)"
+          VER="$(basename "$APK" | sed -nE 's/^FolkPatch_([0-9]+)_.*/\1/p')"
+          [ -n "$VER" ] || { echo "cannot parse versionCode from $APK" >&2; exit 1; }
+          echo "APK=$APK" >> "$GITHUB_ENV"
+          echo "VER=$VER" >> "$GITHUB_ENV"
+
+      - name: Mirror
+        run: |
+          set -euo pipefail
+          python scripts/mirror.py --apk "$APK" --version-code "$VER" --out . \
+            --mirror-base "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}"
+
+      - name: Drop APK
+        if: always()
+        run: rm -rf _apk
+
+      - name: Commit & push
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugins index
+          git diff --cached --quiet && { echo "up to date"; exit 0; }
+          git commit -m "chore(mirror): sync FolkPatch plugins ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push

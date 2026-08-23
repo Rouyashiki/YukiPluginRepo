@@ -1,0 +1,8 @@
+# Never commit the downloaded APK or its extracted contents.
+_apk/
+*.apk
+apk_extract/
+
+# Python
+__pycache__/
+*.pyc
