@@ -4,7 +4,7 @@
     "description_en": "Controls how fast your phone enters doze mode",
     "name": "Doze Delay",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/doze-delay/v1-Doze-Delay-plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/doze-delay/v1-Doze-Delay-plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-Doze-Delay/releases/download/v1/v1-Doze-Delay-plugin.zip"
   },
@@ -13,7 +13,7 @@
     "description_en": "Monitors CPU temp and switches governor automatically",
     "name": "Thermal Guard",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/thermal-guard/v1-Thermal-Guard-plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/thermal-guard/v1-Thermal-Guard-plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-Thermal-Guard/releases/download/v1/v1-Thermal-Guard-plugin.zip"
   },
@@ -22,7 +22,7 @@
     "description_en": "Cleans temp files and logs at every boot",
     "name": "Boot Cleaner",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/boot-cleaner/v1-Boot-Cleaner-plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/boot-cleaner/v1-Boot-Cleaner-plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-Boot-Cleaner/releases/download/v1/v1-Boot-Cleaner-plugin.zip"
   },
@@ -31,7 +31,7 @@
     "description_en": "Shows which apps are eating your battery right now. One tap and you get a simple list of the worst offenders.",
     "name": "Wakelock Hunter",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/wakelock-hunter/v1-Wakelock-Hunter-plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/wakelock-hunter/v1-Wakelock-Hunter-plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-Wakelock-Hunter/releases/download/v1/v1-Wakelock-Hunter-plugin.zip"
   },
@@ -40,7 +40,7 @@
     "description_en": "switches your private DNS based on what network you're on. WiFi gets one DNS, mobile data gets another. You can also set DNS per specific WiFi name",
     "name": "DNS Flip",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/dns-flip/v1-DNS-Flip-.plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/dns-flip/v1-DNS-Flip-.plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-DNS-Flip/releases/download/v1/v1-DNS-Flip-.plugin.zip"
   },
@@ -49,7 +49,7 @@
     "description_en": "Forces your phone into deep sleep at night",
     "name": "Deep Doze",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/deep-doze/v1-Deep-Doze-plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/deep-doze/v1-Deep-Doze-plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-Deep-Doze/releases/download/v1/v1-Deep-Doze-plugin.zip"
   },
@@ -58,7 +58,7 @@
     "description_en": "Kills background user apps with one tap. Keeps whitelisted apps alive. Manual trigger only",
     "name": "Quiet Kill",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/quiet-kill/v1-Quiet-Kill-.plugin.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/quiet-kill/v1-Quiet-Kill-.plugin.zip",
     "version": "1",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/MeowDump/plugin-QuietKill/releases/download/v1/v1-Quiet-Kill-.plugin.zip"
   },
@@ -67,7 +67,7 @@
     "description_en": "Periodically clean old logs in /data/adb/log",
     "name": "log-rotator",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/log-rotator/log-rotator.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/log-rotator/log-rotator.zip",
     "version": "1.0",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/matsuzaka-yuki/FolkPatch-Mod/releases/download/plugin/log-rotator.zip"
   },
@@ -76,7 +76,7 @@
     "description_en": "Periodically clears app and system cache",
     "name": "cache-cleaner",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/cache-cleaner/cache-cleaner.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/cache-cleaner/cache-cleaner.zip",
     "version": "1.0",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/matsuzaka-yuki/FolkPatch-Mod/releases/download/plugin/cache-cleaner.zip"
   },
@@ -85,7 +85,7 @@
     "description_en": "Run custom commands at a chosen boot stage",
     "name": "boot-script",
     "parameter": 0,
-    "url": "https://raw.githubusercontent.com/Anatdx/YukiPluginRepo/main/plugins/boot-script/boot-script.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/boot-script/boot-script.zip",
     "version": "1.0",
     "upstream_url": "https://cdn.gh-proxy.org/https://github.com/matsuzaka-yuki/FolkPatch-Mod/releases/download/plugin/boot-script.zip"
   }
