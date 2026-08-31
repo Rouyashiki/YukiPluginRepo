@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T06:01:30Z",
+  "generated_at": "2026-08-31T19:13:35Z",
   "source": "https://folk.mysqil.com/api/modules?type=plugin&lang=zh&token=***",
-  "app_user_agent": "APatch/115030",
+  "app_user_agent": "APatch/115032",
   "plugin_count": 10,
   "total_bytes": 22575,
-  "token_source": "FolkPatch_115030_5.0_on_main-release.apk"
+  "token_source": "FolkPatch_115032_5.0_on_main-release.apk"
 }
