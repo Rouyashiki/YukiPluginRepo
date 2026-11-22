@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T07:21:37Z",
+  "generated_at": "2026-11-22T19:55:51Z",
   "source": "https://folk.mysqil.com/api/modules?type=plugin&lang=zh&token=***",
   "app_user_agent": "APatch/115404",
-  "plugin_count": 10,
-  "total_bytes": 22575,
+  "plugin_count": 11,
+  "total_bytes": 24716,
   "token_source": "FolkPatch_115404_0f3f42ba_on_main-release.apk"
 }

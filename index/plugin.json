@@ -1,5 +1,21 @@
 [
   {
+    "id": 91,
+    "name": "Module Unloader",
+    "version": "1.2.0",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/module-unloader/module_unloader.zip",
+    "download_url": "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip",
+    "download_mirrors": [
+      "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip",
+      "http://folk.mysqil.com/download/modules/91"
+    ],
+    "download_sha256": "",
+    "description": "自动按照/data/adb/plugins/module_unloader/main.lua中的MODULE列表卸载内核模块（默认配置为卸载OPPO的安全模块解决ksud被频繁杀死问题）",
+    "description_en": "Automatically unload kernel modules according to the MODULE list in /data/adb/plugins/module_unloader/main.lua (the default configuration unloads OPPO's security module to solve the issue of ksud being frequently killed)",
+    "parameter": 0,
+    "upstream_url": "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip"
+  },
+  {
     "id": 82,
     "name": "Doze Delay",
     "version": "1",
