@@ -1,19 +1,35 @@
 [
   {
+    "id": 92,
+    "name": "Boot Script",
+    "version": "1.2.0",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/boot-script/boot-script.zip",
+    "download_url": "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/boot-script.zip",
+    "download_mirrors": [
+      "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/boot-script.zip",
+      "http://folk.mysqil.com/download/modules/92"
+    ],
+    "download_sha256": "",
+    "description": "在指定的启动阶段执行自定义命令",
+    "description_en": "Run custom commands at a chosen boot stage",
+    "parameter": 0,
+    "upstream_url": "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/boot-script.zip"
+  },
+  {
     "id": 91,
     "name": "Module Unloader",
     "version": "1.2.0",
     "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/module-unloader/module_unloader.zip",
-    "download_url": "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip",
+    "download_url": "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/module_unloader.zip",
     "download_mirrors": [
-      "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip",
+      "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/module_unloader.zip",
       "http://folk.mysqil.com/download/modules/91"
     ],
     "download_sha256": "",
     "description": "自动按照/data/adb/plugins/module_unloader/main.lua中的MODULE列表卸载内核模块（默认配置为卸载OPPO的安全模块解决ksud被频繁杀死问题）",
     "description_en": "Automatically unload kernel modules according to the MODULE list in /data/adb/plugins/module_unloader/main.lua (the default configuration unloads OPPO's security module to solve the issue of ksud being frequently killed)",
     "parameter": 0,
-    "upstream_url": "https://github.com/YumekaiMeng/module_unloader/releases/download/2/module_unloader.zip"
+    "upstream_url": "https://github.com/YumekaiMeng/YumePlugin/releases/download/3/module_unloader.zip"
   },
   {
     "id": 82,
@@ -163,7 +179,7 @@
     "id": 63,
     "name": "boot-script",
     "version": "1.0",
-    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/boot-script/boot-script.zip",
+    "url": "https://raw.githubusercontent.com/Rouyashiki/YukiPluginRepo/main/plugins/boot-script-1/boot-script.zip",
     "download_url": "https://github.com/matsuzaka-yuki/FolkPatch-Mod/releases/download/plugin/boot-script.zip",
     "download_mirrors": [
       "https://github.com/matsuzaka-yuki/FolkPatch-Mod/releases/download/plugin/boot-script.zip",
